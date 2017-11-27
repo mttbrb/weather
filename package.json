@@ -13,8 +13,6 @@
   "devDependencies": {
     "babel-jest": "21.2.0",
     "babel-preset-react-native": "4.0.0",
-    "bs-fetch": "^0.2.0",
-    "bs-platform": "^2.1.0",
     "jest": "21.2.1",
     "node-fetch": "^1.7.3",
     "react-test-renderer": "16.0.0"

@@ -32,13 +32,11 @@ class WeatherProject extends Component {
 
         return (
             <View style={styles.container}>
-              <Text style={styles.welcome}>
-                You input {this.state.zip}.
-              </Text>
               {content}
               <TextInput 
                 style={styles.input}
                 onSubmitEditing={this._handleTextChange}
+                keyboardType="numeric"
               />
             </View>
         );
@@ -51,11 +49,6 @@ const styles = StyleSheet.create({
       justifyContent: "center",
       alignItems: "center",
       backgroundColor: "#666666"
-  },
-  welcome: {
-      fontSize: 20,
-      textAlign: "center",
-      margin: 10
   },
   input: {
         fontSize: 20,
